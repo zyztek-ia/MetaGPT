@@ -1,4 +1,4 @@
-aiohttp==3.8.6
+aiohttp==3.13.3
 #azure_storage==0.37.0
 channels==4.0.0
 # Django==4.1.5
@@ -88,3 +88,4 @@ spark_ai_python~=0.3.30
 tree_sitter~=0.23.2
 tree_sitter_python~=0.23.2
 httpx==0.28.1
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
