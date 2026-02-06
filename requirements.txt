@@ -88,3 +88,5 @@ spark_ai_python~=0.3.30
 tree_sitter~=0.23.2
 tree_sitter_python~=0.23.2
 httpx==0.28.1
+django>=4.2.28 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
